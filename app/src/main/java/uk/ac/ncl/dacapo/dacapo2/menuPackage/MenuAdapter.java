@@ -1,4 +1,4 @@
-package uk.ac.ncl.dacapo.dacapo2;
+package uk.ac.ncl.dacapo.dacapo2.menuPackage;
 
 import android.content.Context;
 import android.graphics.Typeface;
@@ -12,6 +12,8 @@ import android.widget.TextView;
 
 import java.util.LinkedHashMap;
 import java.util.List;
+
+import uk.ac.ncl.dacapo.dacapo2.R;
 
 /**
  * Created by Lewis on 04/03/2017.
