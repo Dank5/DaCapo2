@@ -1,4 +1,4 @@
-package uk.ac.ncl.dacapo.dacapo2;
+package uk.ac.ncl.dacapo.dacapo2.menuPackage;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -10,6 +10,11 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
+
+import uk.ac.ncl.dacapo.dacapo2.DataProvider;
+import uk.ac.ncl.dacapo.dacapo2.R;
+import uk.ac.ncl.dacapo.dacapo2.lessonPackage.LessonMenuActivity;
+import uk.ac.ncl.dacapo.dacapo2.quizPackage.QuizMenuActivity;
 
 // MAIN ACTIVITY
 // xml: activity_main
