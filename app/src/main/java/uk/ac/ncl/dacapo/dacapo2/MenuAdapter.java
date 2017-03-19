@@ -1,4 +1,4 @@
-package uk.ac.ncl.dacapo.dacapo2.menuPackage;
+package uk.ac.ncl.dacapo.dacapo2;
 
 import android.content.Context;
 import android.graphics.Typeface;
