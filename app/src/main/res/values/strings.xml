@@ -5,69 +5,69 @@
 
     <!-- section 1a -->
     <string-array name="staff_notation">
-        <string>Most instruments use what we call staff notation.</string>
-        <string>You are probably familiar with this kind of image, where each staff, or stave, is made up of 5 horizontal lines.</string>
-        <string>Music notes are placed on the lines and in the spaces.</string>
-        <string>We will learn more about what the different styles of notes mean later on.</string>
+        <item>Most instruments use what we call staff notation.</item>
+        <item>You are probably familiar with this kind of image, where each staff, or stave, is made up of 5 horizontal lines.</item>
+        <item>Music notes are placed on the lines and in the spaces.</item>
+        <item>We will learn more about what the different styles of notes mean later on.</item>
     </string-array>
 
     <string-array name="treble_bass">
         <!-- treble strings -->
-        <string>At the beginning of music staves, we must have a clef to tell us how to read the notes.</string>
-        <string>The most common clef is the treble clef, which looks like this.</string>
-        <string>The placement on the lines is important, as the clef forms a circle around the line where G sits.</string>
-        <string>Notes have letter names from A to G. We always use capital letters.</string>
-        <string>To make learning the notes easier, we can split them up into notes on the lines, and notes in the spaces.</string>
-        <string>For notes on the lines we can use a mnemonic such as: Every Good Boy Deserves Football</string>
-        <string>For the notes in the spaces, they happen to spell out ‘FACE’, making them easy to remember.</string>
+        <item>At the beginning of music staves, we must have a clef to tell us how to read the notes.</item>
+        <item>The most common clef is the treble clef, which looks like this.</item>
+        <item>The placement on the lines is important, as the clef forms a circle around the line where G sits.</item>
+        <item>Notes have letter names from A to G. We always use capital letters.</item>
+        <item>To make learning the notes easier, we can split them up into notes on the lines, and notes in the spaces.</item>
+        <item>For notes on the lines we can use a mnemonic such as: Every Good Boy Deserves Football</item>
+        <item>For the notes in the spaces, they happen to spell out ‘FACE’, making them easy to remember.</item>
         <!-- bass strings -->
-        <string>The bottom clef is the bass clef, which is used for most lower pitched music.</string>
-        <string>It is also the default for the left hand on the piano.</string>
-        <string>The alignment of the bass clef shows us the line where the note F is.</string>
-        <string>Because the clef tells us how to ‘translate’ the notes on the stave, being in the bass clef means that the notes are not the same as in the treble clef.</string>
-        <string>Here are the notes on the lines:</string>
-        <string>And the notes in the spaces:</string>
+        <item>The bottom clef is the bass clef, which is used for most lower pitched music.</item>
+        <item>It is also the default for the left hand on the piano.</item>
+        <item>The alignment of the bass clef shows us the line where the note F is.</item>
+        <item>Because the clef tells us how to ‘translate’ the notes on the stave, being in the bass clef means that the notes are not the same as in the treble clef.</item>
+        <item>Here are the notes on the lines:</item>
+        <item>And the notes in the spaces:</item>
     </string-array>
 
     <string-array name="ledger_lines">
-        <string>Ledger lines allow us to represent notes below and above the main lines.</string>
-        <string>Perhaps the most important note to remember with is middle C. It is the note at the centre of a full sized keyboard.</string>
-        <string>In the Treble Clef, middle C is below the lines.</string>
-        <string>In the Bass Clef, middle C is above the lines.</string>
+        <item>Ledger lines allow us to represent notes below and above the main lines.</item>
+        <item>Perhaps the most important note to remember with is middle C. It is the note at the centre of a full sized keyboard.</item>
+        <item>In the Treble Clef, middle C is below the lines.</item>
+        <item>In the Bass Clef, middle C is above the lines.</item>
     </string-array>
 
     <string-array name="sharps_flats">
-        <string>Let’s look at a piano keyboard to see how the notes translate to real life.</string>
-        <string>So far we have seen the white notes, which you can see labelled.</string>
+        <item>Let’s look at a piano keyboard to see how the notes translate to real life.</item>
+        <item>So far we have seen the white notes, which you can see labelled.</item>
     </string-array>
 
     <!--section 1b -->
     
     <string-array name="note_values">
-        <string>Timing is important in music. The shapes of the notes indicate their values.</string>
-        <string>Semibreve or Whole Note - White centre, no stem</string>
-        <string>Minim or Half Note - White head, simple stem</string>
-        <string>Crotchet or Quarter Note - Black head, simple stem</string>
-        <string>Quaver or Eighth Note - Black head, stem and curly ‘tail’</string>
-        <string>Semiquaver or Sixteenth Note - Black head, double curly ‘tail’</string>
+        <item>Timing is important in music. The shapes of the notes indicate their values.</item>
+        <item>Semibreve or Whole Note - White centre, no stem</item>
+        <item>Minim or Half Note - White head, simple stem</item>
+        <item>Crotchet or Quarter Note - Black head, simple stem</item>
+        <item>Quaver or Eighth Note - Black head, stem and curly ‘tail’</item>
+        <item>Semiquaver or Sixteenth Note - Black head, double curly ‘tail’</item>
     </string-array>
 
     <string-array name="beaming_restvalues">
 
         <!-- beaming notes -->
-        <string>Quavers and Semiquavers can be joined up by their ‘tails’ when there are more than one in a row.</string>
-        <string>However, sometimes we also need to beam non-matching notes.</string>
-        <string>Two semiquavers then a quaver: Semiquaver, quaver, Semiquaver</string>
-        <string>Notice that we need to use two cut-off beams. These are short to indicate that only one of the notes has the second tail.</string>
+        <item>Quavers and Semiquavers can be joined up by their ‘tails’ when there are more than one in a row.</item>
+        <item>However, sometimes we also need to beam non-matching notes.</item>
+        <item>Two semiquavers then a quaver: Semiquaver, quaver, Semiquaver</item>
+        <item>Notice that we need to use two cut-off beams. These are short to indicate that only one of the notes has the second tail.</item>
 
         <!-- rest values -->
-        <string>Rests are just as important as notes – we need to know how long to wait when we’re not playing a note!</string>
-        <string>Luckily, each rest type is associated with one of the notes, so we don’t need to learn any new names.</string>
-        <string>Semibreve rest - A rectangular block that hangs from the second line from the top</string>
-        <string>Minim rest - A rectangular block that sits on the middle line</string>
-        <string>Crotchet rest - A kind of black squiggle</string>
-        <string>Quaver rest - Looks a bit like a curly ‘7’ with a circle at its tip</string>
-        <string>Semiquaver rest - Just like the quaver rest, but with two tails, just like the semiquaver note</string>
+        <item>Rests are just as important as notes – we need to know how long to wait when we’re not playing a note!</item>
+        <item>Luckily, each rest type is associated with one of the notes, so we don’t need to learn any new names.</item>
+        <item>Semibreve rest - A rectangular block that hangs from the second line from the top</item>
+        <item>Minim rest - A rectangular block that sits on the middle line</item>
+        <item>Crotchet rest - A kind of black squiggle</item>
+        <item>Quaver rest - Looks a bit like a curly ‘7’ with a circle at its tip</item>
+        <item>Semiquaver rest - Just like the quaver rest, but with two tails, just like the semiquaver note</item>
 
         
     </string-array>
@@ -75,25 +75,25 @@
     <string-array name="dots_ties">
 
         <!--dots -->
-        <string>Even though the different note values give us a lot of options, we still need more notation to show us exactly how different timings go.</string>
-        <string>A dot makes a note (or rest) longer by 50%.</string>
-        <string>This may seem complicated at first, but when you become familiar with the concept, it is very easy to hear how dotted notes are used in music.</string>
+        <item>Even though the different note values give us a lot of options, we still need more notation to show us exactly how different timings go.</item>
+        <item>A dot makes a note (or rest) longer by 50%.</item>
+        <item>This may seem complicated at first, but when you become familiar with the concept, it is very easy to hear how dotted notes are used in music.</item>
 
         <!--ties-->
-        <string>A tie is a small curved line that connects two notes of the same pitch.</string>
-        <string>Don’t confuse a tie with a slur! A slur tells the player to play two notes smoothly together and can go across many notes.</string>
-        <string>A tie can be used to hold a note across a bar line or to create a length of note that is difficult or impossible to express with a single note.</string>
-        <string>Because the two notes joined are the same pitch, when playing tied notes we should still count each note, but do not stop playing the note.</string>
+        <item>A tie is a small curved line that connects two notes of the same pitch.</item>
+        <item>Don’t confuse a tie with a slur! A slur tells the player to play two notes smoothly together and can go across many notes.</item>
+        <item>A tie can be used to hold a note across a bar line or to create a length of note that is difficult or impossible to express with a single note.</item>
+        <item>Because the two notes joined are the same pitch, when playing tied notes we should still count each note, but do not stop playing the note.</item>
 
     </string-array>
     
     <string-array name="time_signatures">
-        <string>Time signatures are the pairs of numbers after the clefs. They tell us how many beats are in each bar.</string>
-        <string>Unless it changes during a piece, the time signature only appears at the beginning of the sheet music, not on every stave.</string>
-        <string>For Grade 1, you only need to know three time signatures:</string>
-        <string>The bottom number tells you the type of beat to count in each bar.</string>
-        <string>The top number tells us how many beats to count per bar.</string>
-        <string>So, in 3/4 time, there can only be 3 beats in each bar.</string>
+        <item>Time signatures are the pairs of numbers after the clefs. They tell us how many beats are in each bar.</item>
+        <item>Unless it changes during a piece, the time signature only appears at the beginning of the sheet music, not on every stave.</item>
+        <item>For Grade 1, you only need to know three time signatures:</item>
+        <item>The bottom number tells you the type of beat to count in each bar.</item>
+        <item>The top number tells us how many beats to count per bar.</item>
+        <item>So, in 3/4 time, there can only be 3 beats in each bar.</item>
 
     </string-array>
     <!-- Grade two strings -->
