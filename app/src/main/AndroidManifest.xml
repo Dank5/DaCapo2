@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="uk.ac.ncl.dacapo.dacapo2">
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -19,7 +20,8 @@
         <activity android:name=".LessonMenuActivity" />
         <activity android:name=".QuizMenuActivity" />
         <activity android:name=".LessonActivity" />
-        <activity android:name=".QuizActivity"></activity>
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".DrawableActivity"></activity>
     </application>
 
 </manifest>
