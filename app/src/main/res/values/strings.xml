@@ -18,7 +18,7 @@
         <string>The placement on the lines is important, as the clef forms a circle around the line where G sits.</string>
         <string>Notes have letter names from A to G. We always use capital letters.</string>
         <string>To make learning the notes easier, we can split them up into notes on the lines, and notes in the spaces.</string>
-        <string>For notes on the lines we can use a mnemonic such as:Every Good Boy Deserves Football</string>
+        <string>For notes on the lines we can use a mnemonic such as: Every Good Boy Deserves Football</string>
         <string>For the notes in the spaces, they happen to spell out ‘FACE’, making them easy to remember.</string>
         <!-- bass strings -->
         <string>The bottom clef is the bass clef, which is used for most lower pitched music.</string>
@@ -96,9 +96,6 @@
         <string>So, in 3/4 time, there can only be 3 beats in each bar.</string>
 
     </string-array>
-
-
-
     <!-- Grade two strings -->
     <string-array name="g2lesson_one">
 
