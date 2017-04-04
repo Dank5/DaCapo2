@@ -89,14 +89,14 @@ public class DrawableActivity extends AppCompatActivity {
             canvas.drawPath(circlePath, circlePaint);
         }
 
-        private void touchStart(float x, float y) {
+        private void onTouchStart(float x, float y) {
             mPath.reset();
             mPath.moveTo(x, y);
             mX = x;
             mY = y;
         }
 
-        private void touchMove(float x, float y) {
+        private void onTouchMove(float x, float y) {
             float dx = Math.abs(x - mX);
             float dy = Math.abs(y - mY);
             if (dx >= TOUCH_TOLERANCE || dy >= TOUCH_TOLERANCE) {
@@ -109,7 +109,7 @@ public class DrawableActivity extends AppCompatActivity {
             }
         }
 
-        private void touchUp() {
+        private void onTouchUp() {
             mPath.lineTo(mX, mY);
             circlePath.reset();
             // commit the path to our offscreen
@@ -125,15 +125,15 @@ public class DrawableActivity extends AppCompatActivity {
 
             switch (event.getAction()) {
                 case MotionEvent.ACTION_DOWN:
-                    touchStart(x, y);
+                    onTouchStart(x, y);
                     invalidate();
                     break;
                 case MotionEvent.ACTION_MOVE:
-                    touchMove(x, y);
+                    onTouchMove(x, y);
                     invalidate();
                     break;
                 case MotionEvent.ACTION_UP:
-                    touchUp();
+                    onTouchUp();
                     invalidate();
                     break;
             }
