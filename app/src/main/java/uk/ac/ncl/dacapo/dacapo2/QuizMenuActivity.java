@@ -49,11 +49,15 @@ public class QuizMenuActivity extends AppCompatActivity {
                     public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
 
                         Intent quizIntent = new Intent(getApplicationContext(), QuizActivity.class);
-                        Quiz quiz = quizList.get(position);
-                        String name = (String) quiz.getText();
-                        String question = "This is a question!";
-                        quizIntent.putExtra(QUIZ_NAME, name);
-                        quizIntent.putExtra(QUIZ_TEXT, question);
+                        Bundle b = new Bundle();
+                        b.putInt("level", position);
+                        b.putInt("grade", 0);
+                        quizIntent.putExtras(b);
+                        //Quiz quiz = quizList.get(position);
+                        //String name = (String) quiz.getText();
+                        //String question = "This is a question!";
+                        //quizIntent.putExtra(QUIZ_NAME, name);
+                        //quizIntent.putExtra(QUIZ_TEXT, question);
                         startActivity(quizIntent);
                     }
                 });
